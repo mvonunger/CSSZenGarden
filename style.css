@@ -1,26 +1,27 @@
 body {
   background-color: white;
   font-family: Lato, sans-serif;
+  width: 1262px;
 }
 
 .header {
   background-image: url(https://farm5.staticflickr.com/4300/35227993174_2598784b8f_o.jpg);
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  margin: -8px;
-  margin-top: -10px;
-  width: 1366px;
+  margin: -10px;
   height: 600px;
 }
 
 p {
+  display: inline-block;
   font-family: Lato, sans-serif;
   font-weight: 100;
-  font-size: 18px;
+  font-size: 16px;
   text-align: left;
-  width: 700px;
+  width: 600px;
+  padding-left: 100px;
 }
 
 h1 {
@@ -71,10 +72,10 @@ h2 {
   color: black;
   padding-top: 100px;
   padding-bottom: 50px;
-  padding-left: 100px;
+  padding-left: 0px;
   padding-right: 450px;
   margin-top: -80px;
-}
+} 
 
 h4 {
   font-family: Lato, sans-serif;
@@ -82,7 +83,7 @@ h4 {
   font-size: 30px;
   text-align: left;
   color: black;
-  padding-left: 0px;
+  padding-left: 100px;
   padding-right: 50px;
   column-span: all;
 }
@@ -93,7 +94,7 @@ h4 {
 
 .boat-image {
   position: relative;
-  padding-left: 860px;
+  padding-left: 872px;
   opacity: 1;
   margin-top: -600px;
 }
@@ -103,6 +104,7 @@ h4 {
   font-size: 16px;
   color: white;
   width: 200px;
+  float:right;
   padding-left: 960px;
   margin-top: -500px;
 }
@@ -120,8 +122,8 @@ h4 {
   color: white;
   position: relative;
   width: 100%;
-  padding: 5px 500px 10px 110px;
-  margin: 10px -100px -100px -110px;
+  padding: 5px 440px 10px 80px;
+  margin: 0px -100px -100px -80px;
 }
 
 .blue-title {
@@ -130,41 +132,42 @@ h4 {
 
 .paragraph-3 {
   margin-top: 50px;
-  margin-left: 100px;
+  margin-left: 0px;
 }
 
 .details-2 {
   background-color: #23425c;
   background-repeat: no-repeat;
   color: white;
-  padding: 30px 30px 10px 40px;
-  margin: 10px 10px 10px 10px;
+  padding: 30px 30px 30px 40px;
+  float: right;
+  margin-right: 100px;
   font-size: 16px;
   color: white;
   width: 200px;
   height: 200px;
-  margin-left: 800px;
-  margin-top: -270px;
 }
 
 .paragraph-4 {
   background-image: url(https://farm5.staticflickr.com/4310/35282962164_5e67e74baf_o.jpg);
-  background-size: cover;
+  background-size: 100%;
   background-position: center -150px;
   position: relative;
   opacity: 1;
-  padding: 50px 500px 10px 170px;
+  padding: 50px 0px 100px 0px;
   margin: 10px -100px -100px -110px;
+  width: 100%;
   height: 300px;
   margin-left: -8px;
-  margin-top: 100px;
+  margin-top: 80px;
   position: absolute;
   color: white;
 }
 
 .paragraph-5 {
-  margin-left: 100px;
-  margin-top: 550px;
+  margin-left: 0px;
+  margin-top: 600px;
+  margin-bottom: 100px;
 }
 
 h5 {
@@ -179,10 +182,11 @@ h5 {
 
 .footer {
   background-color: #23425c;
-  background-color: #23425c;
+  background-size: 100%;
   color: white;
   position: absolute;
   width: 100%;
-  padding: 5px 0px 10px 110px;
-  margin: 10px -100px -100px -25px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  margin-left: -8px;
 }
